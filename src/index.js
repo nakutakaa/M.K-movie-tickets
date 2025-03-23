@@ -12,10 +12,10 @@ if (ticketsRemaining === null) {
   ticketsRemaining = parseInt(ticketsRemaining); // Convert from string to number
 }
 
-// Update the displayed tickets
+// display ticket update
 ticketsRemainingElement.textContent = ticketsRemaining;
 
-// Function to handle buying a ticket
+// buying a ticket
 function buyTicket() {
   if (ticketsRemaining > 0) {
     ticketsRemaining--; // Decrease the number of tickets
@@ -28,13 +28,13 @@ function buyTicket() {
       buyTicketButton.disabled = true; // Disable the button
     }
 
-    alert('Jibambe mkuu!'); // Notify the user
+    alert('Jibambe mkuu!'); // show the user
   } else {
-    alert('iza msee zoea iyo hali!'); // Notify the user if tickets are sold out
+    alert('iza msee zoea iyo hali!'); // tell the user if tickets are sold out
   }
 }
 
-// Add event listener to the button
+// buton event listener
 buyTicketButton.addEventListener('click', buyTicket);
 
 // Update button text on page load if tickets are already 0
@@ -60,7 +60,7 @@ function fetchMovies() {
         movieList.appendChild(movieItem);
       });
 
-      // Add event listeners to delete buttons
+      // Adding event listeners to delete buttons
       const deleteButtons = document.querySelectorAll('.delete-button');
       deleteButtons.forEach((button) => {
         button.addEventListener('click', deleteMovie);
