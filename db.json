@@ -1,0 +1,97 @@
+
+  {
+    "movies": [
+      {
+        "id": 1,
+        "name": "PROJECT MOON BASE",
+        "runtime": "89 minutes",
+        "description": "In a future 1970, the United States is considering building bases on the Moon. Colonel Briteis, Major Bill Moore, and Doctor Wernher are sent to orbit the Moon to survey landing sites for future lunar missions."
+      },
+      {
+        "id": 2,
+        "name": "VILLAGE OF THE GIANTS",
+        "runtime": "81 minutes",
+        "description": "Teenagers ingest a substance that causes them to grow to giant size and take over a small town."
+      },
+      {
+        "id": 3,
+        "name": "DANGER: DIABOLIC",
+        "runtime": "96 minutes",
+        "description": "A secret agent must stop a mad scientist from unleashing a deadly virus on the world."
+      },
+      {
+        "id": 4,
+        "name": "WILD REBELS",
+        "runtime": "88 minutes",
+        "description": "A race car driver goes undercover to infiltrate a gang of bank robbers."
+      },
+      {
+        "id": 5,
+        "name": "SECRET AGENT SUPER DRAGON",
+        "runtime": "105 minutes",
+        "description": "A secret agent battles a criminal organization planning to take over the world."
+      },
+      {
+        "id": 6,
+        "name": "CATALINA CAPER",
+        "runtime": "84 minutes",
+        "description": "A group of treasure hunters search for a stolen scroll that leads to a hidden fortune."
+      },
+      {
+        "id": 7,
+        "name": "THE GIANT SPIDER INVASION",
+        "runtime": "85 minutes",
+        "description": "A small town is terrorized by giant alien spiders."
+      },
+      {
+        "id": 8,
+        "name": "SANTA CLAUS CONQUERS MARTIANS",
+        "runtime": "81 minutes",
+        "description": "Martians kidnap Santa Claus to bring joy to their children."
+      },
+      {
+        "id": 9,
+        "name": "THE TOUCH OF SATAN",
+        "runtime": "90 minutes",
+        "description": "A man falls in love with a woman who may be the daughter of Satan."
+      },
+      {
+        "id": 10,
+        "name": "TIME CHASERS",
+        "runtime": "93 minutes",
+        "description": "A man invents a time machine and must stop a corporation from altering history."
+      },
+      {
+        "id": 11,
+        "name": "MANOS: THE HANDS OF FATE",
+        "runtime": "74 minutes",
+        "description": "A family stumbles upon a cult worshipping a deity named Manos."
+      },
+      {
+        "id": 12,
+        "name": "THE GIANT GILA MONSTER",
+        "runtime": "74 minutes",
+        "description": "A small town is terrorized by a giant lizard."
+      },
+      {
+        "id": 13,
+        "name": "THE KILLER SHREWS",
+        "runtime": "69 minutes",
+        "description": "A group of people are hunted by giant, venomous shrews."
+      },
+      {
+        "id": 14,
+        "name": "THE SKY DIVERS",
+        "runtime": "91 minutes",
+        "description": "A group of skydivers get caught up in a smuggling ring."
+      },
+      {
+        "id": 15,
+        "name": "TRACK OF THE MOON BEAST",
+        "runtime": "93 minutes",
+        "description": "A man is transformed into a monster after being struck by a meteorite."
+      }
+    ]
+  }  
+  
+

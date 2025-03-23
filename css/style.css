@@ -1,0 +1,113 @@
+/* Body Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url('https://images.wallpapersden.com/image/download/planet-in-space-4k_a2pnZmuUmZqaraWkpJRpZ2VlrWdnbWU.jpg');
+  background-size: cover; /* Ensures the image covers the entire body */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-attachment: fixed; /* Keeps the background fixed while scrolling */
+}
+
+/* Header Styles */
+header {
+  background-color: black;
+  color: red;
+  padding: 10px 20px;
+  text-align: left;
+  position: sticky; /* Keeps the header fixed at the top */
+  top: 0;
+  z-index: 100; /* Ensures the header stays above other elements */
+}
+
+header h1, header h3 {
+  margin: 0;
+}
+
+/* Body Layout */
+main {
+  display: flex;
+  flex: 1;
+  background-color: rgb(27, 12, 1);
+}
+
+/* Left Side: List of Items */
+.left-side {
+  width: 20%;
+  padding: 20px;
+  color: beige;
+}
+
+.movie-list div {
+  color: yellow;
+  font-weight: bold;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.delete-button {
+  background-color: rgb(46, 20, 2);
+  color: rgb(250, 6, 6);
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}
+
+/* Center: Image */
+.center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.center img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Right Side: Container with Button and Details */
+/* Right Side: Container with Button and Details */
+.right-side {
+  width: 20%; /* Semi-transparent background */
+  padding: 20px;
+  color: blanchedalmond;
+}
+
+.details-container {
+  text-align: left; /* Align text to the left */
+}
+
+.details-container h2 {
+  margin-top: 0;
+  color: #e5ff00; /* Matches the header color */
+}
+
+.details-container p {
+  margin: 10px 0;
+  line-height: 1.5; /* Improves readability */
+}
+
+.details-container button {
+  padding: 10px 20px;
+  background-color: red;
+  border: none;
+  cursor: pointer;
+  width: 100%; /* Makes the button full width */
+  margin-top: 20px; /* Adds space above the button */
+}
+
+.details-container button:hover {
+  background-color: darkred;
+}
